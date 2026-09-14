@@ -1,0 +1,19 @@
+h1 {
+    color: darkblue;
+}
+
+.add-expense {
+    background-color: #e8f0fe;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.expense-list {
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+
+#page-subtitle {
+    font-style: italic;
+    color: gray;
+}
