@@ -1,16 +1,35 @@
-h1 {
-    color: darkblue;
+body {
+    background-color: #f4f7f9;
+    font-family: 'Open Sans', sans-serif;
 }
 
+h1, .page-header {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+h1, h2 {
+    color: #2c5f7c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
 .add-expense {
     background-color: #e8f0fe;
-    padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
+
 .expense-list {
-    background-color: #f4f4f4;
-    padding: 15px;
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
 #page-subtitle {
@@ -18,9 +37,19 @@ h1 {
     color: gray;
 }
 
+.page-header {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
 table {
     width: 70%;
     border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 th, td {
@@ -30,7 +59,7 @@ th, td {
 }
 
 thead {
-    background-color: #4a6fa5;
+    background-color: #2c5f7c;
     color: white;
 }
 
@@ -44,8 +73,16 @@ tbody tr:hover {
 
 button {
     cursor: pointer;
+    background-color: #2c5f7c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
 }
 
+button:hover {
+    background-color: #4a90a4;
+}
 /* Descendant selector */
 .expenses-section td {
     color: #333;
@@ -75,4 +112,11 @@ input:not([type="submit"]) {
 input:focus {
     outline: 2px solid #4a6fa5;
     background-color: #eef6ff;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
